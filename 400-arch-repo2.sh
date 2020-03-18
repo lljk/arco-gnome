@@ -22,8 +22,8 @@ echo "DESKTOP SPECIFIC APPLICATIONS"
 
 echo "Installing category Accessories"
 
-sudo pacman -S --noconfirm --needed gnome-multi-writer
-sudo pacman -S --noconfirm --needed gnome-pie
+#sudo pacman -S --noconfirm --needed gnome-multi-writer
+#sudo pacman -S --noconfirm --needed gnome-pie
 sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed guake
 
@@ -39,7 +39,7 @@ echo "Installing category Internet"
 
 echo "Installing category Multimedia"
 
-sudo pacman -S --noconfirm --needed gnome-mplayer
+#sudo pacman -S --noconfirm --needed gnome-mplayer
 #sh AUR/install-mpd-ncmpcpp-v*.sh
 
 echo "Installing category Office"
